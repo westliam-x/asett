@@ -65,7 +65,10 @@ This SQL dump file can be used to recreate the asett database and its two tables
 
 
 ## Disclaimer
-The data used in this web application is for educational purposes only. The information provided should not be used as investment advice.
+The data used in this web application is for educational purposes only. 
+The information provided should not be used as investment advice.
+Also note that UI was not the main focus of this project just the idea of the funtionality
+Some programming lexicons were also purposely overlooked
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
