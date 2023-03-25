@@ -4,6 +4,8 @@
 ## Requirements
 --PHP version 7.4 or higher
 --MySQL
+--Apache server
+--Windown or Linux Operating system
 
 ## Getting Started
 To run this application locally, you will need to have PHP installed on your machine. You can download PHP from the official PHP website.
