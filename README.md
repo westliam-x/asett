@@ -8,12 +8,13 @@
 --Windown or Linux Operating system
 
 ## Getting Started
-To run this application locally, you will need to have PHP installed on your machine. You can download PHP from the official PHP website.
+To run this application locally, you will need to have xampp installed
 
-Once you have PHP installed, you can clone this repository to your local machine following the installation steps:
+Once you have Xampp installed, you can clone this repository into the `htdocs` directory in xampp using the following steps:
 
 ## Installation
---Clone the repository: git clone https://github.com/westliam-x/asett.git
+--Navigate to the directory c:/xampp/htdocs using the command line on your code editor
+--Clone the repository: git clone https://github.com/westliam-x/asett.git into that directory
 --Navigate to the project directory: cd asett.git
 --Start your local server(xampp) and open the index.php file in your web browser.
 
