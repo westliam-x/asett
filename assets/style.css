@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+section {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.text-box {
+    width: 70%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos .names {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.infos .names input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .email input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .email input:focus {
+    outline: none;
+}
+
+.infos .email span {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.infos .email input::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .password input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .password input:focus {
+    outline: none;
+}
+
+.infos .password span {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.infos .password input::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .confirmpassword input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infos .confirmpassword input:focus {
+    outline: none;
+}
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    margin: 0 10px;
+  }
+  
+  /* Main content */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+text-center{
+    color: gold;
+}
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.coin-name {
+    font-weight: bold;
+}
+  
+  article {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  article h2 {
+    margin-top: 0;
+  }
+  
+  article p {
+    margin-bottom: 0;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
