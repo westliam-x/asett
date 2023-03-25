@@ -33,6 +33,7 @@ Once you have PHP installed, you can clone this repository to your local machine
 --HTML
 --CSS
 --PHP
+--Javascript
 
 ## Main page
 --When you first open the application, it will display the top 10 cryptocurrencies by market cap, sorted in descending order. 
