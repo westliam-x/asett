@@ -5,7 +5,7 @@
 //This starts a session and checks if the user is logged in, if the user is not they will be redirected to login
 session_start();
 if (!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] !== true) {
-    header("location: log-in.php");
+    header("location: login.php");
 }
 ?>
 
